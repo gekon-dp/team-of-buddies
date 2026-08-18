@@ -5,7 +5,6 @@ const body = document.querySelector("body");
 const newContainer = document.createElement("div");
 
 newContainer.setAttribute("class", "container");
-
 newContainer.textContent = "Текст внутри созданного div";
 newContainer.innerHTML = `"Это <em>курсивный</em> текст"`;
 
