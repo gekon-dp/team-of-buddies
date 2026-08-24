@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #f4f7f6;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+}
+
+.top-form {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.top-form label {
+  margin-top: 0;
+}
+
+div.checkbox-center {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0 10px 0;
+  width: 100%;
+}
+
+label.checkbox-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 15px;
+  user-select: none;
+}
+
+label.checkbox-center input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.bottom-form {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button.submit {
+  background-color: #007bff;
+  color: white;
+}
+
+button.submit:hover {
+  background-color: #0056b3;
+}
+
+button.reset {
+  background-color: #e2e8f0;
+  color: #4a5568;
+}
+
+button.reset:hover {
+  background-color: #cbd5e1;
+}
+
+p.errorMessage {
+  color: #e74c3c;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+p.acceptMessage {
+  color: #27ae60;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}

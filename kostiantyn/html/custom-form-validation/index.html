@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form validation (custom)</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <form class="registration " novalidate>
+      <div class="top-form">
+        <div class="left-column">
+          <label for="user-name">Имя</label>
+          <input id="user-name" type="text" name="user-name">
+        </div>
+        <div class="right-column">
+          <label for="user-second-name">Фамилия</label>
+          <input id="user-second-name" type="text" name="user-second-name">
+        </div>
+      </div>
+
+      <label for="user-email">Email</label>
+      <input id="user-email" type="text" name="email">
+      <p class="statusEmail"></p>
+      <label for="user-password">Пароль</label>
+      <input id="user-password" type="password" name="password">
+      <p class="statusPassword"></p>
+      <div class="checkbox-center">
+        <label class="checkbox-center">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Подписаться на рассылку
+        </label>
+      </div>
+
+      <div class="bottom-form">
+        <button class="reset" type="reset">Сбросить</button>
+        <button class="submit" type="submit">Отправить</button>
+      </div>
+      <p class="statusMessage"></p>
+    </form>
+  </div>
+</body>
+<script src="scripts/script.js"></script>
+
+</html>
