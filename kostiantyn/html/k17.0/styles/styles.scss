@@ -1,0 +1,8 @@
+@use "reset" as *;
+@use "globals" as *;
+@use "./variables/colors" as *;
+@use "./variables/mixins" as *;
+
+.heading {
+  color: $primary-color;
+}

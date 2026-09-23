@@ -1,0 +1,30 @@
+/* ============================= 
+RESET
+================================*/
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+/* ============================= 
+MIXINS
+================================*/
+/* ============================= 
+GLOBALS
+================================*/
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  font-family: "Inter", sans-serif;
+}
+
+/* ============================= 
+COLORS
+================================*/
+.heading {
+  color: #ff0000;
+}/*# sourceMappingURL=styles.css.map */

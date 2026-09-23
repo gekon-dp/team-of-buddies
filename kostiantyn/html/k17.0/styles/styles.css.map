@@ -1,0 +1,1 @@
+{"version":3,"sources":["_reset.scss","styles.css","variables/_mixins.scss","_globals.scss","variables/_colors.scss","styles.scss"],"names":[],"mappings":"AAAA;;iCAAA;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;ACCF;;ACPA;;iCAAA;ACCA;;iCAAA;AAIA;EDDE,aAAA;EACA,mBCCkC;EDAlC,mBAAA;EACA,uBCDkB;EAClB,kBAAA;EACA,gCAAA;AFcF;;AGtBA;;iCAAA;ACKA;EACE,cDHc;AH0BhB","file":"styles.css"}

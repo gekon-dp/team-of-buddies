@@ -1,0 +1,10 @@
+@use "./variables/mixins" as *;
+/* ============================= 
+GLOBALS
+================================*/
+
+body {
+  @include flex-box(center, center, row);
+  min-height: 100dvh;
+  font-family: "Inter", sans-serif;
+}
