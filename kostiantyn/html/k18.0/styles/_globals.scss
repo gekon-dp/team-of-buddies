@@ -1,0 +1,23 @@
+@use "./variables/colors" as *;
+@use "./variables/sizes" as *;
+@use "./variables/mixins" as *;
+/* ============================= 
+GLOBALS
+================================*/
+.container {
+  width: $container-width;
+  max-width: 100%;
+  margin: 0 auto;
+  @media (max-width: $breakpoint-mobile) {
+    width: 100%;
+  }
+}
+
+.button {
+  @include button-styles($color-brand-primary, $color-white);
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: $color-brand-hover;
+  }
+}
